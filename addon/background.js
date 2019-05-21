@@ -17,7 +17,7 @@ function sendData(tab) {
 	xhr.open("POST", "http://localhost:1337/setRP", true);
 	xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 	xhr.send(getTabJson(tab));
-	// console.log(getTabJson(tab));
+	 console.log(getTabJson(tab));
 }
 function handleActivated(activeInfo) {
 	var tabq = browser.tabs.get(activeInfo.tabId);
