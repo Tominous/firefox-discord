@@ -24,7 +24,7 @@ function setRP(type, tabTitle, tabURL, iconName) {
 			client.setActivity({
 				details : `${tabTitle}`,
 				state : `${tabURL}`,
-				// startTimestamp: moment(new Date()).add(parse("-0s"), "ms").toDate(),
+				 startTimestamp: moment(new Date()).add(parse("-0s"), "ms").toDate(),
 				largeImageKey : 'firefox-large',
 				largeImageText : 'Firefox',
 				instance : false,
